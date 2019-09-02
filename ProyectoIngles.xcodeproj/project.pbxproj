@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC0B9B6231DC01300383D0A /* FrutasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0B9B5231DC01300383D0A /* FrutasController.swift */; };
 		3DCF5D862315C44D00B55EE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5D852315C44D00B55EE8 /* AppDelegate.swift */; };
 		3DCF5D882315C44D00B55EE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5D872315C44D00B55EE8 /* ViewController.swift */; };
 		3DCF5D8B2315C44D00B55EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF5D892315C44D00B55EE8 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DC0B9B5231DC01300383D0A /* FrutasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutasController.swift; sourceTree = "<group>"; };
 		3DCF5D822315C44D00B55EE8 /* ProyectoIngles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoIngles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCF5D852315C44D00B55EE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DCF5D872315C44D00B55EE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				3DCF5D8C2315C44F00B55EE8 /* Assets.xcassets */,
 				3DCF5D8E2315C44F00B55EE8 /* LaunchScreen.storyboard */,
 				3DCF5D912315C44F00B55EE8 /* Info.plist */,
+				3DC0B9B5231DC01300383D0A /* FrutasController.swift */,
 			);
 			path = ProyectoIngles;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC0B9B6231DC01300383D0A /* FrutasController.swift in Sources */,
 				3DCF5D882315C44D00B55EE8 /* ViewController.swift in Sources */,
 				3DCF5D862315C44D00B55EE8 /* AppDelegate.swift in Sources */,
 			);
