@@ -14,36 +14,37 @@ import AVFoundation
 class TransportesController : UIViewController{
     
     //MUSICA FONDO
-    var player : AVAudioPlayer?
     var playerMusicaFondo : AVAudioPlayer?
     
+    //var reproducccion = false
     
     
+    @IBAction func doTapTransporte1(_ sender: Any) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "AUDIO 29.wav", ofType: nil)
-        let url = URL(fileURLWithPath: path!)
+        let pathMusicaFondo = Bundle.main.path(forResource: "audio.wav", ofType : nil)
+                    
+        let urlMusicaFondo = URL(fileURLWithPath: pathMusicaFondo!)
         
-        
-        
-        do {
+        do{
             
-            player = try AVAudioPlayer(contentsOf: url)
-            let urlMusicaFondo = URL(fileURLWithPath: pathMusicaFondo!)
+            playerMusicaFondo = try AVAudioPlayer(contentsOf : urlMusicaFondo)
+            
             playerMusicaFondo?.play()
             
         } catch {
             
-            
-            
         }
+            
         
+        
+     
     }
-    
-    
-    
+  
 }
 
 
