@@ -18,10 +18,13 @@ class TransportesController : UIViewController{
     
     //var reproducccion = false
     
+    @IBOutlet weak var txtNombres: UILabel!
     
     @IBAction func doTapTransporte1(_ sender: Any) {
-        
+        txtNombres.text = "Carro"
     }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
