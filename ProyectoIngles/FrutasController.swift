@@ -51,7 +51,7 @@ class FrutasController: UIViewController {
     
     @IBAction func tapLimon(_ sender: Any) {
         imgFrutaSeleccionada.image = imgLimon.image
-        lblFrutaSeleccionada.text = "Lemmon"
+        lblFrutaSeleccionada.text = "Lemon"
     }
     
     @IBAction func tapPlatano(_ sender: Any) {
