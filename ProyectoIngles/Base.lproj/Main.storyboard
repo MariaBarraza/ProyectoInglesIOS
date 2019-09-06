@@ -10,6 +10,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poetsen One - Regular.ttf">
+            <string>PoetsenOne-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Animales-->
         <scene sceneID="tne-QT-ifu">
@@ -238,7 +243,7 @@
                                 <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
                                 <color key="backgroundColor" red="0.63700446064194183" green="1" blue="0.99972705894896308" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="Gtg-n1-ck1" userLabel="Image View 1">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AutoM1" translatesAutoresizingMaskIntoConstraints="NO" id="Gtg-n1-ck1" userLabel="Image View 1">
                                 <rect key="frame" x="32" y="349" width="94" height="86.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -290,10 +295,10 @@
                                 <rect key="frame" x="260" y="451" width="94" height="83.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transport" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiJ-hw-nvI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vehicles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiJ-hw-nvI">
                                 <rect key="frame" x="128" y="306" width="118" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="PoetsenOne-Regular" family="Poetsen One" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -314,18 +319,21 @@
                         <viewLayoutGuide key="safeArea" id="4FI-rc-dPn"/>
                     </view>
                     <connections>
+                        <outlet property="ImgCarro" destination="Gtg-n1-ck1" id="Cjg-T1-7fu"/>
+                        <outlet property="imgSecuenciaPrincipal" destination="Kmy-7L-x1z" id="ipa-bo-nWn"/>
                         <outlet property="txtNombres" destination="YiJ-hw-nvI" id="IJV-Xi-Azj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AdI-B1-OqW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="DXK-B2-boJ" userLabel="Tap regresar menu">
+                    <connections>
+                        <action selector="doTapCarro:" destination="sOA-L2-hK2" id="WD8-AF-GYa"/>
+                        <segue destination="0VE-wg-zdL" kind="show" id="3qD-Bs-C3U"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="uzK-VQ-c8a" userLabel="Tap Transporte 1">
                     <connections>
                         <action selector="doTapTransporte1:" destination="sOA-L2-hK2" id="npg-eW-yjC"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="DXK-B2-boJ" userLabel="Tap regresar menu">
-                    <connections>
-                        <segue destination="0VE-wg-zdL" kind="show" id="3qD-Bs-C3U"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -451,6 +459,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AutoM1" width="280" height="199"/>
         <image name="Regresar" width="344" height="300"/>
     </resources>
 </document>
