@@ -22,56 +22,84 @@ class FrutasController: UIViewController {
     @IBOutlet weak var imgPera: UIImageView!
     @IBOutlet weak var imgSandia: UIImageView!
     
+    var secuenciaFrutaSeleccionada : [UIImage] = []
+    
+    var secuenciaPera : [UIImage] = []
+    
+    var arregloPera : [String] = ["animPera00", "animPera01", "animPera02",
+    "animPera03", "animPera04", "animPera05", "animPera06", "animPera07",
+    "animPera08", "animPera09", "animPera10", "animPera11", "animPera12",
+    "animPera13", "animPera14", "animPera15", "animPera16", "animPera17",
+    "animPera18", "animPera19", "animPera20", "animPera21", "animPera22",
+    "animPera23", "animPera24", "animPera25", "animPera26", "animPera27",
+    "animPera28", "animPera29"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         lblFrutaSeleccionada.text = " "
         
+        // Pera
+        animationImageMiniaturas(arregloFruta: arregloPera, imageViewFruta: imgPera, imagenesArray: secuenciaPera, duracion: 2)
     }
     
     @IBAction func tapManzana(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgManzana.image
+        imgFrutaSeleccionada.startAnimating()
         lblFrutaSeleccionada.text = "Apple"
     }
     
     @IBAction func tapFresa(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgFresa.image
         lblFrutaSeleccionada.text = "Strawberry"
     }
     
     @IBAction func tapCereza(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgCereza.image
         lblFrutaSeleccionada.text = "Cherry"
     }
     
     @IBAction func tapNaranja(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgNaranja.image
         lblFrutaSeleccionada.text = "Orange"
     }
     
     @IBAction func tapLimon(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgLimon.image
         lblFrutaSeleccionada.text = "Lemon"
     }
     
     @IBAction func tapPlatano(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgPlatano.image
         lblFrutaSeleccionada.text = "Banana"
     }
     
     @IBAction func tapKiwi(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgKiwi.image
         lblFrutaSeleccionada.text = "Kiwi"
     }
     
     @IBAction func tapPera(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgPera.image
-        lblFrutaSeleccionada.text = "Pear"
+        animationImagesTap(duracion: 2, nombreFruta: "Pear")
     }
     
     @IBAction func tapSandia(_ sender: Any) {
-        imgFrutaSeleccionada.image = imgSandia.image
         lblFrutaSeleccionada.text = "Watermelon"
+    }
+    
+    func animationImageMiniaturas(arregloFruta: [String], imageViewFruta: UIImageView, imagenesArray: [UIImage], duracion: Int) {
+        
+        var arrayTemp = imagenesArray
+        
+        for imagen in arregloFruta {
+            arrayTemp.append(UIImage(named: imagen)!)
+        }
+        
+        imageViewFruta.animationImages = arrayTemp
+        imageViewFruta.animationDuration = TimeInterval(duracion)
+        imageViewFruta.startAnimating()
+        
+        secuenciaFrutaSeleccionada = arrayTemp
+    }
+    
+    func animationImagesTap(duracion: Int, nombreFruta: String) {
+        imgFrutaSeleccionada.animationImages = secuenciaFrutaSeleccionada
+        imgFrutaSeleccionada.animationDuration = TimeInterval(duracion)
+        imgFrutaSeleccionada.startAnimating()
+        lblFrutaSeleccionada.text = nombreFruta
     }
     
     
