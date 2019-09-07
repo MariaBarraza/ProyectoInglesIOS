@@ -383,12 +383,36 @@
                             <constraint firstItem="QiI-T4-65p" firstAttribute="height" secondItem="9CY-aQ-Pur" secondAttribute="height" multiplier="0.5" id="Cvw-rK-Xyc"/>
                             <constraint firstItem="LB8-KH-Llq" firstAttribute="top" secondItem="9CY-aQ-Pur" secondAttribute="top" id="DDO-PL-dOJ"/>
                             <constraint firstItem="LB8-KH-Llq" firstAttribute="height" secondItem="9CY-aQ-Pur" secondAttribute="height" multiplier="0.5" id="GGp-NK-VVo"/>
+                            <constraint firstItem="LB8-KH-Llq" firstAttribute="width" secondItem="9CY-aQ-Pur" secondAttribute="width" multiplier="0.5" id="Hnp-0E-daJ"/>
                             <constraint firstItem="LB8-KH-Llq" firstAttribute="trailing" secondItem="4FI-rc-dPn" secondAttribute="trailing" id="JZy-I1-8x3"/>
                             <constraint firstItem="QiI-T4-65p" firstAttribute="bottom" secondItem="4FI-rc-dPn" secondAttribute="bottom" id="LlH-zV-e4E"/>
+                            <constraint firstItem="QiI-T4-65p" firstAttribute="width" secondItem="9CY-aQ-Pur" secondAttribute="width" multiplier="0.5" id="MX0-l6-CeL"/>
                             <constraint firstItem="QiI-T4-65p" firstAttribute="trailing" secondItem="4FI-rc-dPn" secondAttribute="trailing" id="RDx-m9-a14"/>
+                            <constraint firstItem="QiI-T4-65p" firstAttribute="height" secondItem="9CY-aQ-Pur" secondAttribute="height" id="dBh-4a-CiB"/>
+                            <constraint firstItem="LB8-KH-Llq" firstAttribute="height" secondItem="9CY-aQ-Pur" secondAttribute="height" id="eaM-Xq-UNa"/>
                             <constraint firstItem="LB8-KH-Llq" firstAttribute="leading" secondItem="4FI-rc-dPn" secondAttribute="leading" id="vCO-p9-Zv5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4FI-rc-dPn"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Hnp-0E-daJ"/>
+                                <exclude reference="eaM-Xq-UNa"/>
+                                <exclude reference="MX0-l6-CeL"/>
+                                <exclude reference="dBh-4a-CiB"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="GGp-NK-VVo"/>
+                                <include reference="Hnp-0E-daJ"/>
+                                <exclude reference="JZy-I1-8x3"/>
+                                <include reference="eaM-Xq-UNa"/>
+                                <exclude reference="CcZ-KT-pgZ"/>
+                                <exclude reference="Cvw-rK-Xyc"/>
+                                <include reference="MX0-l6-CeL"/>
+                                <include reference="dBh-4a-CiB"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="ImgCarro" destination="Gtg-n1-ck1" id="Cjg-T1-7fu"/>
