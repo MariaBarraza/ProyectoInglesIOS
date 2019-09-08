@@ -357,56 +357,56 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gEc-C6-7il">
                                 <rect key="frame" x="0.0" y="369" width="414" height="493"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fresa" translatesAutoresizingMaskIntoConstraints="NO" id="K7R-A6-6X4">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K7R-A6-6X4">
                                         <rect key="frame" x="145" y="0.0" width="124" height="148"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="ABI-ep-k77" appends="YES" id="0IT-5J-2So"/>
                                         </connections>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cereza" translatesAutoresizingMaskIntoConstraints="NO" id="u6M-RM-qHR">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u6M-RM-qHR">
                                         <rect key="frame" x="282" y="0.0" width="124" height="148"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="n1a-7T-TtU" appends="YES" id="nHC-22-NYr"/>
                                         </connections>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="naranja" translatesAutoresizingMaskIntoConstraints="NO" id="MOh-Z1-CZY">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MOh-Z1-CZY">
                                         <rect key="frame" x="8" y="345" width="124" height="148"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="3gv-jA-Z4P" appends="YES" id="idK-ec-DWz"/>
                                         </connections>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="limon" translatesAutoresizingMaskIntoConstraints="NO" id="FJ8-lt-W5y">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FJ8-lt-W5y">
                                         <rect key="frame" x="145" y="172.5" width="124" height="148"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="hVe-K8-m4j" appends="YES" id="DzS-nk-zHH"/>
                                         </connections>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sandia" translatesAutoresizingMaskIntoConstraints="NO" id="vo9-QX-gjm">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vo9-QX-gjm">
                                         <rect key="frame" x="282" y="345" width="124" height="148"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="GJA-pT-jML" appends="YES" id="Co8-hW-9K4"/>
                                         </connections>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kiwi" translatesAutoresizingMaskIntoConstraints="NO" id="uqb-jZ-dpN">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uqb-jZ-dpN">
                                         <rect key="frame" x="8" y="172.5" width="124" height="148"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="4CW-Pk-MhN" appends="YES" id="IBG-2s-tUf"/>
                                         </connections>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manzana" translatesAutoresizingMaskIntoConstraints="NO" id="fHb-8R-mhR">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fHb-8R-mhR">
                                         <rect key="frame" x="8" y="0.0" width="124" height="148"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="rNH-4W-3bJ" appends="YES" id="WdP-6E-TcM"/>
                                         </connections>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banana" translatesAutoresizingMaskIntoConstraints="NO" id="Cnk-h2-hJ9">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cnk-h2-hJ9">
                                         <rect key="frame" x="282" y="172.5" width="124" height="148"/>
                                         <gestureRecognizers/>
                                         <connections>
@@ -1196,12 +1196,12 @@
         <!--Menu-->
         <scene sceneID="Yjv-SI-G2u">
             <objects>
-                <viewController id="0VE-wg-zdL" userLabel="Menu" customClass="ViewController" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="menuController" id="0VE-wg-zdL" userLabel="Menu" customClass="ViewController" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BVG-Ri-zqm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SfT-Ep-Ang">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="animLemon00" translatesAutoresizingMaskIntoConstraints="NO" id="SfT-Ep-Ang">
                                 <rect key="frame" x="49" y="74" width="276" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1238,13 +1238,6 @@
     <resources>
         <image name="Mesa de trabajo 1" width="1242" height="2208"/>
         <image name="Regresar" width="344" height="300.5"/>
-        <image name="banana" width="827" height="920"/>
-        <image name="cereza" width="1000" height="1000"/>
-        <image name="fresa" width="220" height="243"/>
-        <image name="kiwi" width="1500" height="1500"/>
-        <image name="limon" width="1024" height="1024"/>
-        <image name="manzana" width="389" height="352"/>
-        <image name="naranja" width="512" height="512"/>
-        <image name="sandia" width="300" height="300"/>
+        <image name="animLemon00" width="800" height="800"/>
     </resources>
 </document>
