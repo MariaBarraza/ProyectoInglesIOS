@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ProyectoIngles/TransportesController.swift"
-            timestampString = "589527424.8547"
+            timestampString = "589615725.360023"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "351"
-            endingLineNumber = "351"
+            startingLineNumber = "610"
+            endingLineNumber = "610"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
