@@ -2,7 +2,7 @@
 //  animalitosController.swift
 //  ProyectoIngles
 //
-//  Created by equipo on 8/27/19.
+//  Created by Fer Barraza on 8/27/19.
 //  Copyright © 2019 Fer. All rights reserved.
 //
 
