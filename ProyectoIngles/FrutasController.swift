@@ -173,7 +173,7 @@ class FrutasController: UIViewController {
     }
     
     @IBAction func tapSandia(_ sender: Any) {
-        animationImagesTap(duracion: 3, nombreFruta: "Watermelon")
+        animationImagesTap(duracion: 1, nombreFruta: "Watermelon")
         playAudio(fileNameAndExtension: "watermelon.mp3")
     }
     // FIN Acciones de TAP
