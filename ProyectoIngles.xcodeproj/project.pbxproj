@@ -15,15 +15,16 @@
 		3DCF5D902315C44F00B55EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF5D8E2315C44F00B55EE8 /* LaunchScreen.storyboard */; };
 		3DCF5D9B2315C45000B55EE8 /* ProyectoInglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5D9A2315C45000B55EE8 /* ProyectoInglesTests.swift */; };
 		3DCF5DA62315C45000B55EE8 /* ProyectoInglesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5DA52315C45000B55EE8 /* ProyectoInglesUITests.swift */; };
-		452672512324220D00A4B158 /* kiwi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 452672472324220D00A4B158 /* kiwi.mp3 */; };
-		452672522324220D00A4B158 /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 452672482324220D00A4B158 /* apple.mp3 */; };
-		452672532324220D00A4B158 /* banana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 452672492324220D00A4B158 /* banana.mp3 */; };
-		452672552324220D00A4B158 /* cherry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4526724B2324220D00A4B158 /* cherry.mp3 */; };
-		452672562324220D00A4B158 /* watermelon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4526724C2324220D00A4B158 /* watermelon.mp3 */; };
-		452672572324220D00A4B158 /* lemon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4526724D2324220D00A4B158 /* lemon.mp3 */; };
-		452672582324220D00A4B158 /* strawberry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4526724E2324220D00A4B158 /* strawberry.mp3 */; };
-		452672592324220D00A4B158 /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4526724F2324220D00A4B158 /* orange.mp3 */; };
-		4526725A2324220D00A4B158 /* pear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 452672502324220D00A4B158 /* pear.mp3 */; };
+		458E53A12325E4D10029C6E9 /* kiwi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E53972325E4C80029C6E9 /* kiwi.mp3 */; };
+		458E53A22325E4D10029C6E9 /* lemon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E53982325E4C90029C6E9 /* lemon.mp3 */; };
+		458E53A32325E4D10029C6E9 /* fruits.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E53992325E4CA0029C6E9 /* fruits.mp3 */; };
+		458E53A42325E4D10029C6E9 /* pear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E539A2325E4CB0029C6E9 /* pear.mp3 */; };
+		458E53A52325E4D10029C6E9 /* banana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E539B2325E4CC0029C6E9 /* banana.mp3 */; };
+		458E53A62325E4D10029C6E9 /* cherry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E539C2325E4CD0029C6E9 /* cherry.mp3 */; };
+		458E53A72325E4D10029C6E9 /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E539D2325E4CE0029C6E9 /* apple.mp3 */; };
+		458E53A82325E4D10029C6E9 /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E539E2325E4CF0029C6E9 /* orange.mp3 */; };
+		458E53A92325E4D10029C6E9 /* strawberry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E539F2325E4D00029C6E9 /* strawberry.mp3 */; };
+		458E53AA2325E4D10029C6E9 /* watermelon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 458E53A02325E4D10029C6E9 /* watermelon.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,15 +59,16 @@
 		3DCF5DA12315C45000B55EE8 /* ProyectoInglesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoInglesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCF5DA52315C45000B55EE8 /* ProyectoInglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoInglesUITests.swift; sourceTree = "<group>"; };
 		3DCF5DA72315C45000B55EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		452672472324220D00A4B158 /* kiwi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kiwi.mp3; sourceTree = "<group>"; };
-		452672482324220D00A4B158 /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple.mp3; sourceTree = "<group>"; };
-		452672492324220D00A4B158 /* banana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banana.mp3; sourceTree = "<group>"; };
-		4526724B2324220D00A4B158 /* cherry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cherry.mp3; sourceTree = "<group>"; };
-		4526724C2324220D00A4B158 /* watermelon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = watermelon.mp3; sourceTree = "<group>"; };
-		4526724D2324220D00A4B158 /* lemon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lemon.mp3; sourceTree = "<group>"; };
-		4526724E2324220D00A4B158 /* strawberry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strawberry.mp3; sourceTree = "<group>"; };
-		4526724F2324220D00A4B158 /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange.mp3; sourceTree = "<group>"; };
-		452672502324220D00A4B158 /* pear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pear.mp3; sourceTree = "<group>"; };
+		458E53972325E4C80029C6E9 /* kiwi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kiwi.mp3; sourceTree = "<group>"; };
+		458E53982325E4C90029C6E9 /* lemon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lemon.mp3; sourceTree = "<group>"; };
+		458E53992325E4CA0029C6E9 /* fruits.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fruits.mp3; sourceTree = "<group>"; };
+		458E539A2325E4CB0029C6E9 /* pear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pear.mp3; sourceTree = "<group>"; };
+		458E539B2325E4CC0029C6E9 /* banana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banana.mp3; sourceTree = "<group>"; };
+		458E539C2325E4CD0029C6E9 /* cherry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cherry.mp3; sourceTree = "<group>"; };
+		458E539D2325E4CE0029C6E9 /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple.mp3; sourceTree = "<group>"; };
+		458E539E2325E4CF0029C6E9 /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange.mp3; sourceTree = "<group>"; };
+		458E539F2325E4D00029C6E9 /* strawberry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strawberry.mp3; sourceTree = "<group>"; };
+		458E53A02325E4D10029C6E9 /* watermelon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = watermelon.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +119,7 @@
 		3DCF5D842315C44D00B55EE8 /* ProyectoIngles */ = {
 			isa = PBXGroup;
 			children = (
-				4526725B2324221700A4B158 /* AudiosFrutas */,
+				458E53962325E4960029C6E9 /* AudioFrutitas */,
 				3DCF5D852315C44D00B55EE8 /* AppDelegate.swift */,
 				3DCF5D872315C44D00B55EE8 /* ViewController.swift */,
 				3DCF5D892315C44D00B55EE8 /* Main.storyboard */,
@@ -147,21 +149,21 @@
 			path = ProyectoInglesUITests;
 			sourceTree = "<group>";
 		};
-		4526725B2324221700A4B158 /* AudiosFrutas */ = {
+		458E53962325E4960029C6E9 /* AudioFrutitas */ = {
 			isa = PBXGroup;
 			children = (
-				452672482324220D00A4B158 /* apple.mp3 */,
-				452672492324220D00A4B158 /* banana.mp3 */,
-				4526724B2324220D00A4B158 /* cherry.mp3 */,
-				452672472324220D00A4B158 /* kiwi.mp3 */,
-				4526724D2324220D00A4B158 /* lemon.mp3 */,
-				4526724F2324220D00A4B158 /* orange.mp3 */,
-				452672502324220D00A4B158 /* pear.mp3 */,
-				4526724E2324220D00A4B158 /* strawberry.mp3 */,
-				4526724C2324220D00A4B158 /* watermelon.mp3 */,
+				458E539D2325E4CE0029C6E9 /* apple.mp3 */,
+				458E539B2325E4CC0029C6E9 /* banana.mp3 */,
+				458E539C2325E4CD0029C6E9 /* cherry.mp3 */,
+				458E53992325E4CA0029C6E9 /* fruits.mp3 */,
+				458E53972325E4C80029C6E9 /* kiwi.mp3 */,
+				458E53982325E4C90029C6E9 /* lemon.mp3 */,
+				458E539E2325E4CF0029C6E9 /* orange.mp3 */,
+				458E539A2325E4CB0029C6E9 /* pear.mp3 */,
+				458E539F2325E4D00029C6E9 /* strawberry.mp3 */,
+				458E53A02325E4D10029C6E9 /* watermelon.mp3 */,
 			);
-			name = AudiosFrutas;
-			path = ..;
+			name = AudioFrutitas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,17 +271,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DCF5D902315C44F00B55EE8 /* LaunchScreen.storyboard in Resources */,
-				452672572324220D00A4B158 /* lemon.mp3 in Resources */,
+				458E53A52325E4D10029C6E9 /* banana.mp3 in Resources */,
 				3DCF5D8D2315C44F00B55EE8 /* Assets.xcassets in Resources */,
-				452672512324220D00A4B158 /* kiwi.mp3 in Resources */,
-				452672562324220D00A4B158 /* watermelon.mp3 in Resources */,
+				458E53A62325E4D10029C6E9 /* cherry.mp3 in Resources */,
+				458E53AA2325E4D10029C6E9 /* watermelon.mp3 in Resources */,
+				458E53A82325E4D10029C6E9 /* orange.mp3 in Resources */,
+				458E53A92325E4D10029C6E9 /* strawberry.mp3 in Resources */,
+				458E53A22325E4D10029C6E9 /* lemon.mp3 in Resources */,
+				458E53A42325E4D10029C6E9 /* pear.mp3 in Resources */,
+				458E53A12325E4D10029C6E9 /* kiwi.mp3 in Resources */,
 				3DCF5D8B2315C44D00B55EE8 /* Main.storyboard in Resources */,
-				4526725A2324220D00A4B158 /* pear.mp3 in Resources */,
-				452672582324220D00A4B158 /* strawberry.mp3 in Resources */,
-				452672592324220D00A4B158 /* orange.mp3 in Resources */,
-				452672552324220D00A4B158 /* cherry.mp3 in Resources */,
-				452672522324220D00A4B158 /* apple.mp3 in Resources */,
-				452672532324220D00A4B158 /* banana.mp3 in Resources */,
+				458E53A32325E4D10029C6E9 /* fruits.mp3 in Resources */,
+				458E53A72325E4D10029C6E9 /* apple.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
